@@ -1,5 +1,6 @@
 package gabrihorstudios.com.droidsamples;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -80,14 +81,8 @@ public class Main extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
+        if (id == R.id.nav_simple_database_insert){
+            callInsertActivity();
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
@@ -97,5 +92,13 @@ public class Main extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    /*
+    Sample activity responsible to show  the basic insert into SQLite database.
+     */
+    private void callInsertActivity() {
+        Intent intent = new Intent(Main.this, InsertActivity.class);
+        startActivity(intent);
     }
 }

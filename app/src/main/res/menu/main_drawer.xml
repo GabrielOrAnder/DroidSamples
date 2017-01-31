@@ -3,21 +3,21 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_simple_database_insert"
+            android:icon="@drawable/ic_account_plus"
+            android:title="@string/database_insert" />
+        <item
+            android:id="@+id/nav_json"
+            android:icon="@drawable/ic_json"
+            android:title="@string/json" />
+        <item
+            android:id="@+id/nav_menu_camera"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:title="@string/camera" />
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="@string/gallery" />
     </group>
 
     <item android:title="Communicate">
@@ -25,11 +25,11 @@
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="@string/share" />
             <item
                 android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="@string/send" />
         </menu>
     </item>
 

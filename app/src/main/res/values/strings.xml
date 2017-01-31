@@ -5,4 +5,20 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="main_screen_message">Select an option on navigation menu to see a sample of that functionality</string>
+    <string name="database_insert">Database insert</string>
+    <string name="json">Json</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="mail">Mail</string>
+    <string name="send">Send</string>
+    <string name="share">Share</string>
+    <string name="name">Name</string>
+    <string name="save">Save</string>
+    <string name="alert_insert_name">Insert name</string>
+    <string name="question_insert_name">Are you sure to insert this name?</string>
+    <string name="yes">Yes</string>
+    <string name="name_successfully_saved">Name saved successfully</string>
+    <string name="no">No</string>
+    <string name="mail_example">example@example.com</string>
 </resources>
