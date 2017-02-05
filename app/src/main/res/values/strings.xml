@@ -16,9 +16,9 @@
     <string name="name">Name</string>
     <string name="save">Save</string>
     <string name="alert_insert_name">Insert name</string>
-    <string name="question_insert_name">Are you sure to insert this name?</string>
+    <string name="question_insert_user">Are you sure to insert this user?</string>
     <string name="yes">Yes</string>
-    <string name="name_successfully_saved">Name saved successfully</string>
+    <string name="user_successfully_saved">User successfully saved</string>
     <string name="no">No</string>
     <string name="mail_example">example@example.com</string>
 </resources>

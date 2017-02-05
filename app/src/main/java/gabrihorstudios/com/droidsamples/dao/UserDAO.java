@@ -35,7 +35,7 @@ public class UserDAO extends BaseDAO {
     public List<User> listar(){
         List<User> users = new ArrayList<User>();
         User user;
-        String sql = "Select nome, mail from " + super.TB_USER + ";";
+        String sql = "Select name, mail from " + super.TB_USER + ";";
         SQLiteDatabase db = getReadableDatabase();
         Cursor cursor = db.rawQuery(sql, null);
         while(cursor.moveToNext()){

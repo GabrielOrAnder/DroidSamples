@@ -33,7 +33,7 @@
         android:onClick="save"/>
 
     <ListView
-        android:id="@+id/names_list_view"
+        android:id="@+id/users_list_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
