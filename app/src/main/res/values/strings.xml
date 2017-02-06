@@ -21,4 +21,8 @@
     <string name="user_successfully_saved">User successfully saved</string>
     <string name="no">No</string>
     <string name="mail_example">example@example.com</string>
+    <string name="crud_example">Crud Example</string>
+    <string name="database_example">Data Base Example</string>
+    <string name="json_example">Json Example</string>
+    <string name="maps_example">Maps Example</string>
 </resources>

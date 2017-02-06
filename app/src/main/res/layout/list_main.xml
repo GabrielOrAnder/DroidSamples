@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="16dp">
+
+        <ImageView
+            android:id="@+id/database_image_main"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_account_plus" />
+
+        <TextView
+            android:id="@+id/database_text_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:paddingLeft="16dp"
+            android:layout_gravity="center_vertical"
+            android:hint="@string/database_example"
+            android:onClick="callInsertActivity" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="16dp" >
+
+        <ImageView
+            android:id="@+id/json_image_main"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_json" />
+
+        <TextView
+            android:id="@+id/json_text_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:paddingLeft="16dp"
+            android:layout_gravity="center_vertical"
+            android:hint="@string/json_example"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="16dp" >
+
+        <ImageView
+            android:id="@+id/geo_location_image_main"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_maps" />
+
+        <TextView
+            android:id="@+id/maps_text_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:paddingLeft="16dp"
+            android:layout_gravity="center_vertical"
+            android:hint="@string/maps_example"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -37,6 +37,11 @@ public class InsertActivity extends AppCompatActivity {
         listUsers();
     }
 
+    @Override
+    protected void onRestart() {
+        listUsers();
+    }
+
     public void save(View view){
         insertUser();
     }
@@ -76,7 +81,7 @@ public class InsertActivity extends AppCompatActivity {
     }
 
     public void listUsers(){
-        List<User> users = new ArrayList<User>();
+        List<User> users;
         userDAO = new UserDAO(this);
         users = userDAO.listar();
         userDAO.close();

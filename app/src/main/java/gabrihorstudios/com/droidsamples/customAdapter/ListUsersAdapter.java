@@ -1,8 +1,6 @@
 package gabrihorstudios.com.droidsamples.customAdapter;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -38,8 +36,8 @@ public class ListUsersAdapter extends ArrayAdapter<User>{
     public View getView(int position, View convertView, ViewGroup parent) {
         View view;
         if(convertView == null){
-            LayoutInflater inflator = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            view = inflator.inflate(R.layout.list_users, null);
+            LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            view = inflater.inflate(R.layout.list_users, null);
             final ViewHolder viewHolder = new ViewHolder();
 
             viewHolder.textViewName = (TextView) view.findViewById(R.id.name_list_users);
